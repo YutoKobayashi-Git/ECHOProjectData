@@ -1,0 +1,250 @@
+fileFormatVersion: 2
+guid: af414238fd6c66242b104cd6b7a0157f
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: CasRunning
+      takeName: Take 001
+      internalID: 1827226128182048838
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Cas_Running(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cas_wheel
+      parentName: Cas_Running(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: eye2
+      parentName: Cas_wheel
+      position: {x: -0, y: -0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.5, z: 1.5}
+    - name: eye
+      parentName: Cas_wheel
+      position: {x: -0, y: -0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.5, z: 1.5}
+    - name: Cas_Wheel
+      parentName: Cas_wheel
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Root
+      parentName: Cas_Running(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0.062127497, z: -0, w: 0.9980682}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Body
+      parentName: Rig_Root
+      position: {x: -0, y: 0.13814574, z: -0.085088715}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Upper
+      parentName: Rig_Body
+      position: {x: -0, y: 0.12045157, z: 0.14265616}
+      rotation: {x: 0.12197912, y: -0, z: -0, w: 0.9925327}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Downer
+      parentName: Rig_Body
+      position: {x: -0, y: -0.02772364, z: 0.15303464}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Leg
+      parentName: Rig_Body
+      position: {x: -0, y: -0.041758712, z: 0.06618969}
+      rotation: {x: 0.21643962, y: -0, z: -0, w: 0.976296}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_wheel
+      parentName: Rig_Leg
+      position: {x: -0, y: -0.050674066, z: 0.007958598}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Rope
+      parentName: Rig_Body
+      position: {x: -0, y: -0.027018948, z: 0.0049566077}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rope_Ik
+      parentName: Rig_Root
+      position: {x: -0, y: 0.1111268, z: -0.08013211}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Body
+      parentName: Cas_Running(Clone)
+      position: {x: 0.008421925, y: 0.18552968, z: -0.067386314}
+      rotation: {x: -0, y: -0.000000005820766, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Upper_Con
+      parentName: Body
+      position: {x: -0, y: -0.00072250183, z: -0.00020016106}
+      rotation: {x: 0.82469153, y: 0.04123458, z: -0.0242103, w: 0.56355786}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Upper
+      parentName: Upper_Con
+      position: {x: -0, y: 0.07379014, z: 0.12567815}
+      rotation: {x: -0, y: -0, z: -2.4502956e-17, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Downer_Con
+      parentName: Body
+      position: {x: -0, y: -0.00072250183, z: -0.00020016106}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Downer
+      parentName: Downer_Con
+      position: {x: -0, y: -0.07438508, z: 0.13605665}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Leg
+      parentName: Body
+      position: {x: -0, y: -0.058540538, z: 0.040037584}
+      rotation: {x: 0.000000011641532, y: 0.000000005820766, z: -6.7762636e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wheel
+      parentName: Leg
+      position: {x: -0, y: -0.08127618, z: 0.016932538}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1.0000004}
+    - name: Rope_Con
+      parentName: Body
+      position: {x: -0, y: -0.033799887, z: 0.006318124}
+      rotation: {x: 0.72158575, y: -0.0000000023555686, z: 0.0000000059596332, w: 0.6923251}
+      scale: {x: 1, y: 1.0000004, z: 1.0000001}
+    - name: Rope1
+      parentName: Rope_Con
+      position: {x: -0, y: -0.011552757, z: -0.023126809}
+      rotation: {x: -0.000000023283064, y: 0.000000002910383, z: -0.0000000145519135, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000002}
+    - name: Rope2
+      parentName: Rope1
+      position: {x: -0, y: 0.00017301233, z: -0.02236464}
+      rotation: {x: -0, y: -0.000000011641532, z: 0.0000000029103828, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
