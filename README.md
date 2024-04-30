@@ -1,0 +1,1 @@
+Kobayashi内にあるScriptが私が制作したものになります。
